@@ -1,12 +1,49 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+* {
+  margin: 30 0;
+  padding: 0;
+}
 body {
     background: black;
     justify-items: center;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
 }
 h1 {
-    color: white;
+    font-size: 48px;
+}
+h2 {
     font-size: 36px;
 }
 a {
     color: turquoise;
     justify-self: center;
+}
+.camp {
+    max-width: 800px;
+    height: auto;
+}
+.phone {
+
+}
+div {
+   display: block;
+  max-width: 1440px;
+  margin: 0 auto; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+}
+footer {
+    text-align: end;
+    margin: 50px;
 }
