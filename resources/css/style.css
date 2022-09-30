@@ -1,0 +1,12 @@
+body {
+    background: black;
+    justify-items: center;
+}
+h1 {
+    color: white;
+    font-size: 36px;
+}
+a {
+    color: turquoise;
+    justify-self: center;
+}
